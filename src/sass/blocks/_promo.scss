@@ -1,0 +1,31 @@
+.promo {
+    background: url('../img/NEV_3499\ 1.png') no-repeat 50%/cover;
+    min-height: 100vh;
+    position: relative;
+    padding-top: 190px;
+    &_title {
+        margin-top: 17px;
+    }
+    &__subtitle{
+        position: relative;
+        padding-left: 10px;
+        z-index: 1;
+        @include before_circle;
+    }
+
+    &_btns {
+        margin-top: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 250px;
+        margin-left: 600px;
+    }
+    &_link {
+        color: white;
+        font-weight: bold;
+        &:hover {
+            color: white;
+        }
+    }
+}
